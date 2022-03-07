@@ -1,0 +1,111 @@
+.dh-header-non-rectangular-container h1, p {
+  color: white;
+  font-weight: bold;
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.degra-azul {
+  /*background-color: #03b3fe;*/
+  /*background: rgb(13,75,126);*/
+  background: -moz-linear-gradient(left, rgb(13,75,126) 0%, rgb(73,155,234) 49%, rgb(44,114,180) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgb(13,75,126)), color-stop(49%, rgb(73,155,234)), color-stop(100%, rgb(44,114,180)));
+  background: -webkit-linear-gradient(left, rgb(13,75,126) 0%, rgb(73,155,234) 49%, rgb(44,114,180) 100%);
+  background: -o-linear-gradient(left, rgb(13,75,126) 0%, rgb(73,155,234) 49%, rgb(44,114,180) 100%);
+  background: -ms-linear-gradient(left, rgb(13,75,126) 0%, rgb(73,155,234) 49%, rgb(44,114,180) 100%);
+  background: linear-gradient(to right, rgb(13,75,126) 0%, rgb(73,155,234) 49%, rgb(44,114,180) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d4b7e', endColorstr='#2c72b4', GradientType=1 );
+}
+
+.espacio-ico-01 {
+  padding-right: 12px;
+  position: relative;
+  float: left;
+  top: 6px;
+}
+
+#imagen-separa {
+  width: 35%;
+}
+
+body a {
+  outline: none !important;
+}
+
+li {
+  line-height: 24px;
+}
+
